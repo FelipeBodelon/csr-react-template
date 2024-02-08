@@ -1,6 +1,4 @@
 function App() {
-  const x = { test: 'not properly formatted code' };
-
   return (
     <>
       <div>
