@@ -5,12 +5,14 @@
     "moduleResolution": "Node",
     "jsx": "react-jsx",
     "esModuleInterop": true,
-    "types": ["@types/node"]
+    "types": ["@types/node"],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   },
   "include": [
-    "**/*.ts",
-    "**/*.tsx",
-    "**/*.js",
+    "./src/**/*.{ts,tsx, js}",
     "vite.config.ts",
     ".eslintrc.cjs",
     ".prettierrc.cjs"
