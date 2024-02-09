@@ -3,5 +3,5 @@
     // allows comments in JSON files, improving code quality
     "*.json": "jsonc"
   },
-  "cSpell.words": ["tailwindcss"]
+  "cSpell.words": ["hookform", "tailwindcss", "tanstack"]
 }
